@@ -3,20 +3,41 @@ using System.Text;
 
 namespace Sandbox
 {
-    class Program
+    public class Grades
     {
-        private string _testString = "Test String";
-        private string _testString2 = "is awesome";
-        
         static void Main(string[] args)
         {
-                public void JoiningStrings()
-            {
-                string secondTest = "written test";
-                Console.WriteLine("This is a " + _testString); // This is a test string
-                Console.WriteLine(_testString + secondTest);  // TestStringwritten test
+            Console.WriteLine("Please enter a grade.");
+            
+            string grade = Console.ReadLine();
 
+            switch(grade)
+            {
+                case "E":
+                case "e":
+                    Console.WriteLine("Excellent");
+                    break;
+                case "V":
+                case "v":
+                    Console.WriteLine("Very Good");
+                    break;
+                case "G":
+                case "g":
+                    Console.WriteLine("Good");
+                    break;
+                case "A":
+                case "a":
+                    Console.WriteLine("Average");
+                    break;
+                case "F":
+                case "f":
+                    Console.WriteLine("Fail");
+                    break;
+                default:
+                    Console.WriteLine("Please enter valid grade.");
+                    break;
             }
+        
         }
     }
         

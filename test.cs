@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace Sandbox
+/*namespace Sandbox
 {
     public class test
     {
@@ -58,12 +58,7 @@ namespace Sandbox
         #endregion
 
         #region Arrays
-        /**
-        Arrays represent a fixed number of variables or elements of a type.
-        Arrays can be made up of Strings or Value types
-        They start with an index of 0.!--  If you exceed the size of an array, you will trigger
-        an IndexOutOfRangeException.!--  There can be multidimensional arrays
-        **/
+
         public void ArraySingleSample()
         {
             string[] cars = new string[3];
@@ -119,16 +114,12 @@ namespace Sandbox
         // Enum declaration with mixed defined and non-defined values
         private enum Days { Sun, Mon = 8, Tue = 9, Wed = 10, Thur, Fri, Sat };
 
-        /*
-        Enums are a special type that allows you to specify a group of numeric constants.
-        Converting an enum requires an explicit cast.
-        */
-
+        
         public void EnumSample()
         {
             Console.WriteLine("Value for days not set is {0}", Days.Thur);
             Console.WriteLine("Favorite type of movie value is {0}", MovieType.Action);
         }
         #endregion
-        }
-    }
+        } 
+    } */
