@@ -7,10 +7,13 @@ namespace Sandbox
     {
         static void Main(string[] args)
         {
+            // Display input request
             Console.WriteLine("Please enter a grade.");
             
+            // Input grade and assign to variable.
             string grade = Console.ReadLine();
 
+            // Compare input to available choices and return appropriate response.
             switch(grade)
             {
                 case "E":
