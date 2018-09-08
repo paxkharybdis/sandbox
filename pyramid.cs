@@ -1,9 +1,8 @@
-﻿using System;
-using System.Text;
+/*using System;
 
 namespace Sandbox
 {
-    public class CountToTen
+    public class pyramid
     {
         public int inputNum;
         static void DrawPyramid(int n)
@@ -21,8 +20,9 @@ namespace Sandbox
                 Console.WriteLine();
             }
         }
-        static void Main(string[] args)
-        {
+
+            public void PyramidInput()
+            {
             int inputNum;
             Console.WriteLine("Please enter a number.");
             String numInput = Console.ReadLine();
@@ -32,10 +32,8 @@ namespace Sandbox
                 Console.WriteLine("Not a valid number, try again.");
 
                 numInput = Console.ReadLine();
-            }            
-            
-            DrawPyramid(inputNum);
-        }
-    }    
-}
+            } 
 
+            DrawPyramid(inputNum);
+    }
+} */
