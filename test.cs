@@ -1,125 +1,74 @@
-using System;
+/*using System;
 using System.Text;
 
-/*namespace Sandbox
+namespace Sandbox
 {
     public class test
     {
-        static void Main(string[] args)
+       //public string userInput;
+
+        static string DisplayMenu()
         {
-       
+            //var GotoTires = new Action(tires);
+            string userInput();
 
-        #region Joining Strings
+            Console.WriteLine("Bicycle Status");
+            Console.WriteLine();
+            Console.WriteLine("1. ASSEMBLY to check assembly status.");
+            Console.WriteLine("2. Check handlebar alignment.");
+            Console.WriteLine("3. Check tire status.");
+            Console.WriteLine("4. Display overall bicycle status.");
+            Console.WriteLine("5. Exit Program.");
+            Console.WriteLine();
+            Console.WriteLine("Enter number to choose.");
 
-        
-
-        public void JoinStringsWithBuilder()
-        {
-            StringBuilder builder = new StringBuilder();
-            builder.Append(_testString)
-            .Append(_testString2)
-            .Append(" and super cool.");
-
-            // In order to use the builder, you have to call the ToString method so it converts.
-            Console.WriteLine(builder.ToString());
-        }
-
-        #endregion
-
-        #region Placeholders and compare strings
-        public void PlaceholderString()
-        {
-            string sampleFour = "forth";
-            // This is a third Test String
-            Console.WriteLine("This is a third {0}", _testString);
-            Console.WriteLine("This {0} is {2} the {1}", _testString, sampleFour, 35);
-        }
-
-        public void CompareStrings()
-        {
-            string ab = "Test String";
-            Console.WriteLine(_testString == ab);
-
-        }
-
-        #endregion
-
-        #region Char
-        public void CharType()
-        {
-            char ab = 'A';
-            char de = 'B';
-            char copyWriteSymbol = '\u00A9';
-
-            Console.WriteLine(ab == de); // False
-            Console.WriteLine("The copywrite symbol looks like {0}", copyWriteSymbol);
-        }
-
-        #endregion
-
-        #region Arrays
-
-        public void ArraySingleSample()
-        {
-            string[] cars = new string[3];
-            cars[0] = "camaro";
-            cars[1] = "mustang";
-            cars[2] = "chevelle";
-
-            //or
-
-            string[] names = { "Tom", "Roger", "Matt" };
-
-            Console.WriteLine(cars[1]);
-            Console.WriteLine(names[1]);
-        }
-
-        public void ArrayRectangularSample()
-        {
-            int[,] sampleInt = new int[2, 2];
-            sampleInt[0, 0] = 5;
-            sampleInt[0, 1] = 10;
-            sampleInt[1, 0] = 2;
-            sampleInt[1, 1] = 4;
-
-            Console.WriteLine(sampleInt[1, 0]);
-        }
-
-        public void ArrayJaggedSample()
-        {
-            int[][] sampleJagged = new int[2][];
-            sampleJagged[0] = new int[] { 2, 3, 4 };
-            sampleJagged[1] = new int[] { 5, 6 };
-
-            //or
-
-            int[][] secondSample = new int[][]
+            userInput = Console.ReadLine();
+            return false;
+            /*switch (userInput)
             {
-                    new int[] { 1, 2, 3, 4, 5 },
-                    new int[] { 6, 7, 8, 9 },
-                    new int[] { 10, 11, 12 }
-            };
+                case "1":
+
+                    break;
+                case "2":
+                    break;
+                case "3":
+                    bool tiresInflated = false;
+
+                    if (tiresInflated)
+                    {
+                        Console.WriteLine("Tires are inflated.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Tires are not inflated.  Type INFLATE to inflate them.  Type EXIT to keep tires deflated.");
+                        string reply = Console.ReadLine();
+                        switch (reply)
+                        {
+                            case "INFLATE":
+                            case "inflate":
+                                Console.WriteLine("Tires have been inflated");
+                                tiresInflated = true;
+                                break;
+                            case "EXIT":
+                            case "exit":
+                                Console.WriteLine("Tires are still deflated.");
+                                break;
+                            default:
+                                Console.WriteLine("Please enter INFLATE or EXIT.");
+                                break;
+                        }
+
+                    }
+                    break;
+                case "4":
+                    break;
+                case "5":
+                    break;
+                default:
+                    break;
+            }
+
         }
-
-        #endregion
-
-        #region Enums
-
-        // Enum declaration with default values
-        private enum Position { Left, Right, Top, Bottom };
-
-        // Enum declaration with defined values
-        private enum MovieType { Action = 100, Comedy = 200, Drama = 200 };
-
-        // Enum declaration with mixed defined and non-defined values
-        private enum Days { Sun, Mon = 8, Tue = 9, Wed = 10, Thur, Fri, Sat };
-
-        
-        public void EnumSample()
-        {
-            Console.WriteLine("Value for days not set is {0}", Days.Thur);
-            Console.WriteLine("Favorite type of movie value is {0}", MovieType.Action);
-        }
-        #endregion
-        } 
-    } */
+    } 
+} 
+*/

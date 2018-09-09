@@ -1,4 +1,4 @@
-/*using System;
+using System;
 
 namespace Sandbox
 {
@@ -21,6 +21,7 @@ namespace Sandbox
             }
         }
 
+            // static void Main(string[] args)
             public void PyramidInput()
             {
             int inputNum;
@@ -35,5 +36,6 @@ namespace Sandbox
             } 
 
             DrawPyramid(inputNum);
-    }
-} */
+            }
+    } 
+}
