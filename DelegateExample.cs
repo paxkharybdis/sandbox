@@ -11,7 +11,6 @@ namespace Sandbox
 
         public delegate int TheMagicNumber(int _magicNumber);
 
-
         public int TheLuckyNumber(int _magicNumber)
         {
             Random rnd = new Random();
